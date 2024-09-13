@@ -18,7 +18,7 @@ public class RoomResponse {
     private String photo;
     private List<BookingResponse> bookings;
 
-    public RoomResponse(String roomType, Long id, BigDecimal price) {
+    public RoomResponse(Long id, String roomType, BigDecimal price) {
         this.roomType = roomType;
         this.id = id;
         this.price = price;
